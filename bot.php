@@ -6,7 +6,7 @@ $strAccessToken = "Tn06kA54O9TDusL2993NA6H6u1/Sjv5KblMz53V7f35O0PrrV2fUECzrSktCU
 $content = file_get_contents('php://input');
 $arrJson = json_decode($content, true);
  
-$strUrl = "https://api.line.me/v2/bot/message/reply";
+$strUrl = "https://api.line.me/v3/bot/message/reply";
  
 $arrHeader = array();
 $arrHeader[] = "Content-Type: application/json";
